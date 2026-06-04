@@ -607,7 +607,7 @@ body {
   grid-template-columns: repeat(4, 1fr);;
   gap: 22px;
   max-width: 1100px;
-  position: relative;
+  position: center;
   z-index: 1;
 }
  
