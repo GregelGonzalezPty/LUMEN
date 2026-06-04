@@ -604,10 +604,10 @@ body {
 /* Grid de 4 tarjetas */
 .cards-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);;
+  grid-template-columns: repeat(4, 1fr);
   gap: 22px;
   max-width: 1100px;
-  position: center;
+  margin: 0 auto;  /* Esto centra el grid horizontalmente */
   z-index: 1;
 }
  
