@@ -611,12 +611,6 @@ body {
   margin: 0 auto;      /* Centra horizontalmente */
   z-index: 1;
 }
-
-.sections-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
  
 /* Base de cada tarjeta (es un enlace <a>) */
 .section-card {
