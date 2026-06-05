@@ -535,6 +535,7 @@ body {
   position: relative;
   overflow: hidden;
   transition: background .3s ease;
+  isolation: isolate;
 }
  
 /* Cabecera: título y badge en la misma fila */
