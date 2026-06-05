@@ -535,7 +535,6 @@ body {
   position: relative;
   overflow: hidden;
   transition: background .3s ease;
-  isolation: isolate;
 }
  
 /* Cabecera: título y badge en la misma fila */
@@ -604,15 +603,15 @@ body {
 
 /* Grid de 4 tarjetas */
 .cards-grid {
-display: grid;
-grid-template-columns: repeat(4, 1fr);;
-gap: 22px;
-max-width: 3000px;
-width: 1100px;
-position: center;
-z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);;
+  gap: 22px;
+  max-width: 1100px;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
 }
- 
+
 /* Base de cada tarjeta (es un enlace <a>) */
 .section-card {
   background: var(--bg-card);
@@ -841,7 +840,6 @@ z-index: 1;
   background: var(--bg-card);
   box-shadow: var(--shadow-card);
   transition: transform var(--transition), box-shadow var(--transition);
-  text-decoration: none;
 }
  
 .tour-card:hover {
@@ -1084,11 +1082,12 @@ z-index: 1;
 .sections-wrapper {
   border-bottom: 2px solid var(--nav-border);
 }
+
 .tours-section {
   border-bottom: 2px solid var(--nav-border);
 }
 /* hace que el cursor cambie en las partes de explora crea y descubre*/
-css.tour-card {
+.tour-card {
   text-decoration: none;
   cursor: pointer;
 }
