@@ -606,7 +606,8 @@ body {
 display: grid;
 grid-template-columns: repeat(4, 1fr);;
 gap: 22px;
-max-width: 1100px;
+max-width: 3000px;
+width: 1100px;
 position: center;
 z-index: 1;
 }
